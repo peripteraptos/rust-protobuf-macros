@@ -11,7 +11,7 @@ test = false
 crate-type = ["dylib", "rlib"]
 
 [dependencies]
-aster = "0.41.0"
+aster = { git = "https://github.com/peripteraptos/aster", branch = "master" }
 syntex = { version = "0.58.1", optional = true }
 syntex_syntax = { version = "0.59.1", optional = true }
 
